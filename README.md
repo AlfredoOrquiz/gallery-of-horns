@@ -1,3 +1,18 @@
+Jeffrey Smith helped me finish the branch "first-additions"
+Jordan Yamada helped me better understand the process.
+
+
+Number and name of feature: Display images
+
+Estimate of time needed to complete: 1 hr.
+
+Start time: 1406
+
+Finish time: 1456
+
+Actual time needed to complete: 50 min
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,5 +84,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Jeffrey Smith helped me finish the branch "first-additions"
-Jordan Yamada helped me better understand the process.
