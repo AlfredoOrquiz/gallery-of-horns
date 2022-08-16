@@ -2,7 +2,7 @@ Jeffrey Smith helped me finish the branch "first-additions"
 Jordan Yamada helped me better understand the process.
 
 
-
+## Feature 1
 Number and name of feature: Display images
 
 Estimate of time needed to complete: 1 hr.
@@ -13,17 +13,28 @@ Finish time: 1456
 
 Actual time needed to complete: 50 min
 
-
+## Feature 2
 Number and name of feature: Allow user to vote for their favorite beast
 
 Estimate of time needed to complete: 2 hrs.
 
 Start time: 1520
 
-Finish time: _____
+Finish time: 1555
 
-Actual time needed to complete: _____
+Actual time needed to complete: 35 min
 
+
+## Feature 3
+Number and name of feature: Bootstrap
+
+Estimate of time needed to complete: 2.5 hrs
+
+Start time: 1600
+
+Finish time: 1645
+
+Actual time needed to complete: 45min
 
 # Getting Started with Create React App
 
