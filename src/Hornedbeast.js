@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
 import './Hornedbeast.css';
 
 class HornedBeast extends React.Component {
@@ -19,6 +20,7 @@ class HornedBeast extends React.Component {
   render() {
     console.log(this.props);
     return (
+      <Col className='mt4'>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={this.props.imageURL} alt={this.props.description}/>
           <Card.Body>
@@ -31,6 +33,7 @@ class HornedBeast extends React.Component {
             </Card.Text>
           </Card.Body>
       </Card>
+      </Col>
     )
   }
 }
