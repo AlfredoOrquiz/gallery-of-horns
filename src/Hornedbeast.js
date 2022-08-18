@@ -18,11 +18,16 @@ class HornedBeast extends React.Component {
   };
 
   render() {
-    console.log(this.props);
     return (
       <Col className='mt4'>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={this.props.imageURL} alt={this.props.description}/>
+      <Card 
+        style={{ width: '18rem' }}>
+        <Card.Img 
+          variant="top" 
+          src={this.props.imageURL} 
+          alt={this.props.description}
+          onClick={() => this.props.handleShowModal(this.props.title)}
+          />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
