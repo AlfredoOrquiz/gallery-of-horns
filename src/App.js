@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header.js';
 import Main from './Main.js';
 import data from './data.json';
-import SelectedBeast from './SelectedBeast';
+import SelectedBeast from './SelectedBeast.js';
 
 
 
@@ -13,21 +13,7 @@ class App extends React.Component {
     this.state = {
       showModal: false,
       beast: {},
-      // description: '',
-      // imageURL: '',
-      // imgSize: '',
-      // title: '',
     }
-  }
-
-  handleClick = () => {
-    this.setState({
-      description: this.state.description,
-      imgURL: this.state.imgURL,
-      imgSize: this.state.imgSize,
-      title: this.state.title,
-    })
-    console.log(this.state);
   }
 
   handleShowModal = (beast) => {
@@ -50,7 +36,6 @@ class App extends React.Component {
         <Header/>
         <Main
           data={data}
-          img={this.state.img}
           handleClick={this.handleClick}
           handleShowModal={this.handleShowModal}
         />
@@ -63,7 +48,7 @@ class App extends React.Component {
           handleHideModal={this.handleHideModal}
           show={this.state.showModal} 
           onHide={this.handleHideModal}
-        ></SelectedBeast>
+        />
 
       </>
     );

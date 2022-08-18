@@ -9,8 +9,6 @@ class Main extends React.Component {
     let beastArr = this.props.data.map((beast, idx) => {
       return <HornedBeast
         beast={beast}
-        imageURL={beast.image_url}
-        handleClick={this.props.handleClick}
         handleShowModal={this.props.handleShowModal}
         key={idx}
         title={beast.title}

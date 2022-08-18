@@ -24,14 +24,14 @@ class HornedBeast extends React.Component {
         style={{ width: '18rem' }}>
         <Card.Img 
           variant="top" 
-          src={this.props.imageURL} 
-          alt={this.props.description}
-          onClick={() => this.props.handleShowModal(this.props.title)}
+          src={this.props.beast.image_url} 
+          alt={this.props.beast.description}
+          onClick={() => this.props.handleShowModal(this.props.beast)}
           />
           <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Title>{this.props.beast.title}</Card.Title>
             <Card.Text>
-            {this.props.description}
+            {this.props.beast.description}
             </Card.Text>
             <Card.Text>
             <p onClick={this.favorite}>💖{this.state.votes} Votes</p>
