@@ -43,13 +43,13 @@ class Main extends React.Component {
   
 
   render() {
-    let beastArr = this.state.filteredData.map((beast, idx) => {
+    let beastArr = this.state.filteredData.map((beast) => {
     return <HornedBeast
       beast={beast}
       handleShowModal={this.props.handleShowModal}
       handleSelect={this.props.handleSelect}
       handleSubmit={this.props.handleSubmit}
-      key={idx}
+      key={beast._id}
       title={beast.title}
       />
     });
@@ -66,7 +66,7 @@ class Main extends React.Component {
         onChange = {this.handleSelect}
         />
         <Container>
-          <Row xs={1} sm={2} m={3} lg={100}>
+          <Row xs={1} sm={2} m={3} lg={4}>
             {beastArr}
           </Row>
         </Container>
