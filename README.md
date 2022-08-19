@@ -1,6 +1,9 @@
+Delpoyed website: https://deploy-preview-5--snazzy-begonia-76b53b.netlify.app/
+
 Jeffrey Smith helped me finish the branch "first-additions"
 Jordan Yamada helped me better understand the process.
-Shane Roach
+Davud Tusia helped me render the images, and fix my code with broken codes.
+Shane Roach Helped me fix the code that was a mess.
 
 
 ## Lab 02 Feature 1
