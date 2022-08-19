@@ -11,9 +11,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showModal: false,
       beast: {},
+      showModal: false,
     }
+  }
+
+  handleHideModal = () => {
+    this.setState({
+      showModal: false,
+    })
   }
 
   handleShowModal = (beast) => {
@@ -24,11 +30,6 @@ class App extends React.Component {
     console.log(beast);
   }
 
-  handleHideModal = () => {
-    this.setState({
-      showModal: false,
-    })
-  }
 
   render() {
     return (
@@ -36,7 +37,6 @@ class App extends React.Component {
         <Header/>
         <Main
           data={data}
-          handleClick={this.handleClick}
           handleShowModal={this.handleShowModal}
         />
         <footer>
