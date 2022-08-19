@@ -10,8 +10,8 @@ class Horns extends React.Component {
     return (
       <Form onSubmit={this.props.onSubmit}>
         <Form.Group className="userName" controlId="formUserName">
-          <Form.Label>User Name</Form.Label>
-          <Form.Control type="User Name" placeholder="Enter user name"/>
+          <Form.Label htmlFor="yourName">User Name</Form.Label>
+          <Form.Control type="User Name" placeholder="Enter user name" id="yourName"/>
           <Form.Text className="muted-text">
             Enter your first and last name.
           </Form.Text>
